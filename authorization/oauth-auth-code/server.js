@@ -9,9 +9,9 @@ const { URLSearchParams } = require('url');
 const app = express();
 
 // OAuth Code Authorization Credentials
-const clientId = process.env.GENESYS_CLOUD_CLIENT_ID;
-const clientSecret = process.env.GENESYS_CLOUD_CLIENT_SECRET;
-const environment = process.env.GENESYS_CLOUD_ENVIRONMENT; // eg. 'mypurecloud.com'
+const clientId = process.env.'1eb1a272-fc83-4431-9f7f-970a082e6632';
+const clientSecret = process.env.'1eb1a272-fc83-4431-9f7f-970a082e6632';
+const environment = process.env.'mypurecloud.com'; // eg. 'mypurecloud.com'
 
 const PORT = '8085';
 
